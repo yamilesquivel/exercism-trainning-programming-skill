@@ -1,0 +1,1 @@
+# exercism-trainning-programming-skill
