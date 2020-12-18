@@ -1,4 +1,4 @@
-   Guia de ejercicios de la pagina [exercism.io](https://www.exercism.io) con test de prueba,para verificarlos se debe ejecutar en la carpeta del ejercicio:
+   Guia de ejercicios de la pagina [exercism.io](https://www.exercism.io/profiles/yamilesquivel) con test de prueba,para verificarlos se debe ejecutar en la carpeta del ejercicio:
 
     npm install 
     npm test nombre_archivo.js
@@ -30,6 +30,7 @@ Acquire and retain more mentors by making mentoring rewarding and enjoyable
 
 Currently, mentoring can be both fulfilling and frustrating. It can be very rewarding to help a student that wants to learn. On the flipside, it can be repetitive, students can be rude, there are few positive feedback loops, and it can feel too much like a job rather than a hobby. In order to retain our existing mentors, and to acquire new ones, we must make mentoring more enjoyable and more rewarding. We must make our mentors feel like they are part of something bigger than them, and that they are contributing to something valuable. A good parallel is Wikipedia, where thousands of people contribute (from once a year to dozens of times per day) because they feel like they are making a tangible difference to something that matters, and because the process itself is straight-forward and (strangely) rewarding.
 Tactics
+
 1. Restructure tracks for student enjoyment and ease of mentoring
 
 Some solutions are fun to mentor, some are extremely challenging. For example, solutions that require maths lead to mentors trying to tutor someone on algebra, not on coding. Other solutions can be solved in such a variety of ways that the mentor ends up debating the right algorithm, not teaching the idioms of the language.
@@ -41,9 +42,9 @@ Update: We have called this the Track Anatomy Project. In our prototype Track (R
 
 The majority of submissions are common. It is rare for a student to submit a solution that no-one else has ever submitted. As part of restructuring the track, we aim to make this even more likely, guiding tracks to have core exercises that are usually solved with one of a few common approaches. We aim to utilize this consistency to provide automated approval and/or feedback to students for the majority of submissions to core exercises. This has the following benefits:
 
-    Reduce student frustration: We want to give students a quick feedback loop. If a solution is optimal, let them continue. If it fails in an anticipated way, tell them and let them improve it. This prevents students from becoming frustrated waiting for their perfectly-fine solutions to be approved, reducing the perception of mentors being slow, which causes a less enjoyable interaction.
-    Dramatically reduce the size of the queue: Our prototyping has shown that for simple exercises (e.g. TwoFer) we will be able to provide automated mentoring in 90%+ of cases. For more complex exercises, the percentage will be smaller but we expect to be able to provide automated mentoring on 50% of exercises, and on all optimal, or close-to-optimal, solutions.
-    Removes repetitiveness for mentors: As most solutions fall into similar buckets, mentoring often turns into a copy and paste process, with a canned answer for each class of solution. This is boring and uninteresting to all but the most determined of mentors. By removing common solutions from the mentor queue, we ask mentors to only help students who need something extra or have a fundamental learning gap that we cannot see.
+   Reduce student frustration: We want to give students a quick feedback loop. If a solution is optimal, let them continue. If it fails in an anticipated way, tell them and let them improve it. This prevents students from becoming frustrated waiting for their perfectly-fine solutions to be approved, reducing the perception of mentors being slow, which causes a less enjoyable interaction.
+   Dramatically reduce the size of the queue: Our prototyping has shown that for simple exercises (e.g. TwoFer) we will be able to provide automated mentoring in 90%+ of cases. For more complex exercises, the percentage will be smaller but we expect to be able to provide automated mentoring on 50% of exercises, and on all optimal, or close-to-optimal, solutions.
+   Removes repetitiveness for mentors: As most solutions fall into similar buckets, mentoring often turns into a copy and paste process, with a canned answer for each class of solution. This is boring and uninteresting to all but the most determined of mentors. By removing common solutions from the mentor queue, we ask mentors to only help students who need something extra or have a fundamental learning gap that we cannot see.
 
 Update: We have called this the Automated Mentor Support Project and received funding from Mozilla to accelerate it.
 3. Encourage respectful relationships between students and mentors
@@ -69,3 +70,4 @@ By providing realistic response-time expectations for the students in the UI bef
 We currently have a deliberate barrier to mentoring, requiring mentors to sign up and accept T&Cs. We have put this in place because we want to try to ensure a level of quality control and therefore want to gate-keep and ensure that people who are mentoring feel like they are up to the task. However, as we add automation, documentation, and a more integrated community, we will be able to remove this barrier and making mentoring more of "something for everyone" on Exercism, rather than something exclusive.
 
 Once the barriers to mentoring are removed, we can actively encourage students to become mentors within the flow of Exercism itself. When someone completes the core exercises in a Track, we can prompt them to mentor. By asking students to fill out profiles listing the languages they know, we can show them solutions that they might be able to mentor and encourage them to get involved.
+Author:@yamilesquivel.
