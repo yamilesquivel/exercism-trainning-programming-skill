@@ -7,6 +7,6 @@ export const toRna = (dna) => {
   let rna = '';
   var nucleotides ={G:'C',C:'G',T:'A',A: 'U'}; //properties and values of dna to rna
   var reg =/\w/g;
-  rna = dna.replace(reg, function(b){return nucleotides[b]}); //change each element from the "dna" calling the function(b)
+  rna = dna.replace(reg, function(b){return nucleotides[b]}); //change each element from the "dna" calling the function(been)
   return rna;  //devuelvo rna reemplazado
 };
