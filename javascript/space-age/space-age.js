@@ -3,5 +3,7 @@
 // convenience to get you started writing code faster.
 //Github user: @yamilesquivel , Web : yamilesquivel.github.io
 
-def hello():
-    return "Hello, World!"
+
+export const age = () => {
+  throw new Error('Remove this statement and implement this function');
+};
